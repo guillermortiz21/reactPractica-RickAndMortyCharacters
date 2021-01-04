@@ -63,8 +63,8 @@ class Home extends React.Component{
               )
             })}
         </div>
-        <div className="Button">
-          <button onClick={this.handleLoadMoreCharactersClick.bind(this)}>
+        <div>
+          <button className="Load_More_Button" onClick={this.handleLoadMoreCharactersClick.bind(this)}>
             Load More Characters
           </button>
         </div>
