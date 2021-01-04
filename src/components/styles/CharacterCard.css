@@ -1,0 +1,21 @@
+.CharacterCard{
+  margin: 10px;
+  position: relative;
+}
+
+.CharacterImage{
+
+}
+
+.CharacterName{
+  display: block;
+  color: white;
+  background-color: rgba(36, 34, 34, 0.4);
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  bottom: -20px;
+  left: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
