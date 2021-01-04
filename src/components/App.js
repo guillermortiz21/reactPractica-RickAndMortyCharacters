@@ -1,8 +1,14 @@
 import React from 'react';
+import Home from '../pages/Home';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
 function App(){
   return(
-      <h1>Rich and Morty Characters</h1>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={Home} />
+        </Switch>
+      </BrowserRouter>
   )
 }
 
